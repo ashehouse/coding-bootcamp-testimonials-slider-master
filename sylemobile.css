@@ -1,0 +1,28 @@
+@media (min-width: 768px){
+ 
+    .slide{
+        flex-direction: row;
+        text-align: left;
+    } 
+ 
+    .slide-text{
+        background-position: 10% top;
+        background-size: 100px;
+        align-items: flex-start;
+    }
+ 
+    .slide-image{
+        margin-left: -100px;
+        z-index: -1;
+    }
+ 
+    .slide-image img{
+        width: 400px;
+    }
+ 
+    .buttons {
+        top: 415px;
+        transform: translate(0);
+        left: calc(100% - 400px);
+    }
+ }
