@@ -19,7 +19,7 @@ body {
     align-items: center;
     padding: 30px;
     background-image: url(./images/pattern-curve.svg);
-    background-position: center;
+    background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -44,18 +44,18 @@ body {
 
 .slide-image{
     width: 100%;
-    margin: 0 auto;
     height: 100%;
     padding: 40px;
     background-image: url(./images/pattern-bg.svg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    
 }
 
 .slide-image img {
     height: 100%;
-    width: 300px;
+    width: 250px;
+    box-shadow: -20px 20px 20px 0px hsla(240, 18%, 77%, .52);
 }
 
 .testimonial-text {
@@ -103,10 +103,9 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 350px;
+    top: 300px;
     width: 90px;
     height: 45px;
-    box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, .52);
     border-radius: 50px;
     background-color: white;
     overflow: hidden;
@@ -148,7 +147,7 @@ body {
 
 
 
-.slide2 {
+.slidetwo {
     display: none;
 }
 
